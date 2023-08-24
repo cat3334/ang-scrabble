@@ -1,0 +1,11 @@
+<div class="field-container" dndDropzone (dndDrop)="onDrop($event)">
+  <div class="field">
+    <p *ngIf="bonus.bonus" class="field-bonus">{{ bonus.bonus }}</p>
+    <!-- <sb-tile></sb-tile> -->
+    <sb-tile
+      (destroyTileEvent)="destroyTile()"
+      *ngIf="tileData"
+      [tileData]="tileData"
+    ></sb-tile>
+  </div>
+</div>

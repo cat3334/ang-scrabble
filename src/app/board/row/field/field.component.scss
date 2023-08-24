@@ -1,0 +1,21 @@
+.field-container {
+  padding: 3px;
+  background-color: aqua;
+}
+
+// .field-bonus {
+//   display: absolute;
+//   background-color: red;
+//   width: 100%;
+//   height: 100%;
+// }
+
+.field {
+  display: flex;
+  display: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+}
